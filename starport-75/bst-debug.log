@@ -1,0 +1,94 @@
+2020-04-14T21:58:31.499Z error: bst-test            Error using bst-test on Node: v12.14.1
+2020-04-14T21:58:31.502Z error: bst-test            Error: The interaction model for your Alexa Skill could not be found under:
+./models/en-US.json
+Please provide the correct location of the Interaction Model.
+    at Function.Object.<anonymous>.InteractionModel.fromFile (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/model/InteractionModel.js:51:23)
+    at VirtualAlexaBuilder.Object.<anonymous>.VirtualAlexaBuilder.create (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/core/VirtualAlexa.js:169:57)
+    at VirtualAlexaInvoker.before (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualAlexaInvoker.js:58:48)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:155:25)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:1:192)
+    at _next (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:194)
+    at /Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:364
+    at new Promise (<anonymous>)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:97)
+2020-04-14T22:03:00.216Z error: bst-test            Error using bst-test on Node: v12.14.1
+2020-04-14T22:03:00.218Z error: bst-test            Error: The interaction model for your Alexa Skill could not be found under:
+./models/en-US.json
+Please provide the correct location of the Interaction Model.
+    at Function.Object.<anonymous>.InteractionModel.fromFile (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/model/InteractionModel.js:51:23)
+    at VirtualAlexaBuilder.Object.<anonymous>.VirtualAlexaBuilder.create (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/core/VirtualAlexa.js:169:57)
+    at VirtualAlexaInvoker.before (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualAlexaInvoker.js:58:48)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:155:25)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:1:192)
+    at _next (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:194)
+    at /Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:364
+    at new Promise (<anonymous>)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:97)
+2020-04-14T22:03:41.159Z error: bst-test            Error using bst-test on Node: v12.14.1
+2020-04-14T22:03:41.161Z error: bst-test            Error: The interaction model for your Alexa Skill could not be found under:
+./models/en-US.json
+Please provide the correct location of the Interaction Model.
+    at Function.Object.<anonymous>.InteractionModel.fromFile (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/model/InteractionModel.js:51:23)
+    at VirtualAlexaBuilder.Object.<anonymous>.VirtualAlexaBuilder.create (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/core/VirtualAlexa.js:169:57)
+    at VirtualAlexaInvoker.before (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualAlexaInvoker.js:58:48)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:155:25)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:1:192)
+    at _next (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:194)
+    at /Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:364
+    at new Promise (<anonymous>)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:97)
+2020-04-14T22:10:01.333Z error: bst-test            Error using bst-test on Node: v12.14.1
+2020-04-14T22:10:01.335Z error: bst-test            Error: The interaction model for your Alexa Skill could not be found under:
+/Users/scott/code/local/skill-package/interactionModels/custom/en-US.json
+Please provide the correct location of the Interaction Model.
+    at Function.Object.<anonymous>.InteractionModel.fromFile (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/model/InteractionModel.js:51:23)
+    at VirtualAlexaBuilder.Object.<anonymous>.VirtualAlexaBuilder.create (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/core/VirtualAlexa.js:169:57)
+    at VirtualAlexaInvoker.before (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualAlexaInvoker.js:58:48)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:155:25)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:1:192)
+    at _next (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:194)
+    at /Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:364
+    at new Promise (<anonymous>)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:97)
+2020-04-14T22:10:39.305Z error: bst-test            Error using bst-test on Node: v12.14.1
+2020-04-14T22:10:39.307Z error: bst-test            Error: The interaction model for your Alexa Skill could not be found under:
+/Users/scott/code/local/build-talking-apps/skill-package/interactionModels/custom/en-US.json
+Please provide the correct location of the Interaction Model.
+    at Function.Object.<anonymous>.InteractionModel.fromFile (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/model/InteractionModel.js:51:23)
+    at VirtualAlexaBuilder.Object.<anonymous>.VirtualAlexaBuilder.create (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/core/VirtualAlexa.js:169:57)
+    at VirtualAlexaInvoker.before (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualAlexaInvoker.js:58:48)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:155:25)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:1:192)
+    at _next (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:194)
+    at /Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:364
+    at new Promise (<anonymous>)
+    at TestRunner.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/TestRunner.js:3:97)
+2020-04-14T22:11:46.719Z error: bst-test            Error using bst-test on Node: v12.14.1
+2020-04-14T22:11:46.721Z error: bst-test            Error: Cannot find module '/Users/scott/code/local/lambda/index.js' from 'ModuleInvoker.js'
+    at Resolver.resolveModule (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-resolve/build/index.js:259:17)
+    at Resolver._getVirtualMockPath (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-resolve/build/index.js:390:14)
+    at Resolver._getAbsolutePath (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-resolve/build/index.js:376:14)
+    at Resolver.getModuleID (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-resolve/build/index.js:348:31)
+    at Runtime._shouldMock (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-runtime/build/index.js:942:37)
+    at Runtime.requireModuleOrMock (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-runtime/build/index.js:595:16)
+    at Function.Object.<anonymous>.ModuleInvoker.invokeHandler (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/impl/ModuleInvoker.js:17:29)
+    at LocalSkillInteractor.Object.<anonymous>.LocalSkillInteractor.invoke (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/impl/LocalSkillInteractor.js:24:50)
+    at LocalSkillInteractor.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/impl/SkillInteractor.js:65:41)
+    at step (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/impl/SkillInteractor.js:32:23)
+2020-04-14T22:11:46.722Z error: bst-test            Error using bst-test on Node: v12.14.1
+2020-04-14T22:11:46.724Z error: bst-test            Error: Cannot find module '/Users/scott/code/local/lambda/index.js' from 'ModuleInvoker.js'
+    at Resolver.resolveModule (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-resolve/build/index.js:259:17)
+    at Resolver._getVirtualMockPath (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-resolve/build/index.js:390:14)
+    at Resolver._getAbsolutePath (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-resolve/build/index.js:376:14)
+    at Resolver.getModuleID (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-resolve/build/index.js:348:31)
+    at Runtime._shouldMock (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-runtime/build/index.js:942:37)
+    at Runtime.requireModuleOrMock (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/jest-runtime/build/index.js:595:16)
+    at Function.Object.<anonymous>.ModuleInvoker.invokeHandler (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/impl/ModuleInvoker.js:17:29)
+    at LocalSkillInteractor.Object.<anonymous>.LocalSkillInteractor.invoke (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/impl/LocalSkillInteractor.js:24:50)
+    at LocalSkillInteractor.<anonymous> (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/impl/SkillInteractor.js:65:41)
+    at step (/Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/bespoken-tools/node_modules/skill-testing-ml/node_modules/virtual-alexa/lib/src/impl/SkillInteractor.js:32:23)
