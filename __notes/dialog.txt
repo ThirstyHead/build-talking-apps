@@ -1,0 +1,4 @@
+~/code/local/build-talking-apps/starport-75 % ask dialog --locale en-US
+[Error]: Failed to obtain skill-id from project resource file ask-resources.json
+
+

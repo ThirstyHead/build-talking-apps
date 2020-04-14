@@ -1,0 +1,44 @@
+~/code/local/build-talking-apps % ask configure                  (master)build-talking-apps
+This command will configure the ASK CLI with a profile associated with your Amazon developer credentials.
+------------------------- Step 1 of 2 : ASK CLI Configuration -------------------------
+? Please create a new profile or overwrite the existing profile.
+ Create new profile
+? Please provide a profile name or press enter to use default as the profile name:  ThirstyH
+ead
+[Warn]: ASK CLI uses authorization code to fetch LWA tokens. Do not share neither your authorization code nor access tokens.
+Switch to "Login with Amazon" page and sign-in with your Amazon developer credentials.
+If your browser did not open the page, run the configuration process again with command "ask configure --no-browser".
+
+ASK Profile "ThirstyHead" was successfully created. The details are recorded in ask-cli config file (.ask/cli_config) located at your **HOME** folder.
+[Error]: There is no Vendor ID associated with your account. To setup Vendor ID, please follow the instructions here: https://developer.amazon.com/en-US/docs/alexa/smapi/manage-credentials-with-ask-cli.html#vendor-id
+~/code/local/build-talking-apps % ask configure                  (master)build-talking-apps
+This command will configure the ASK CLI with a profile associated with your Amazon developer credentials.
+------------------------- Step 1 of 2 : ASK CLI Configuration -------------------------
+? Please create a new profile or overwrite the existing profile.
+ [ThirstyHead]             ** NULL **
+[Warn]: ASK CLI uses authorization code to fetch LWA tokens. Do not share neither your authorization code nor access tokens.
+Switch to "Login with Amazon" page and sign-in with your Amazon developer credentials.
+If your browser did not open the page, run the configuration process again with command "ask configure --no-browser".
+
+ASK Profile "ThirstyHead" was successfully created. The details are recorded in ask-cli config file (.ask/cli_config) located at your **HOME** folder.
+Vendor ID set as MHGMD8RG4O2S1.
+
+------------------------- Step 2 of 2 : Associate an AWS Profile with ASK CLI -------------------------
+[Warn]: ASK CLI will create an IAM user and generate corresponding access key id and secret access key. Do not share neither of them.
+? Do you want to link your AWS account in order to host your Alexa skills? Yes
+
+Complete the IAM user creation with required permissions from the AWS console, then come back to the terminal.
+
+Please fill in the "Access Key ID" and "Secret Access Key" from the IAM user creation final page.
+? AWS Access Key ID:  AKIAIUTMNLFLGO26KITQ
+? AWS Secret Access Key:  [hidden]
+
+AWS profile "ask_cli_default" was successfully created. The details are recorded in aws credentials file (.aws/credentials) located at your **HOME** folder.
+AWS profile "ask_cli_default" was successfully associated with your ASK profile "ThirstyHead".
+
+------------------------- Configuration Complete -------------------------
+Here is the summary for the profile setup: 
+ASK Profile: ThirstyHead
+AWS Profile: ask_cli_default
+Vendor ID: MHGMD8RG4O2S1
+~/code/local/build-talking-apps %

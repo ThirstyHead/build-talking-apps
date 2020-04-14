@@ -1,0 +1,34 @@
+~/code/local/build-talking-apps % npm install -g ask-cli         (master)build-talking-apps
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+/Users/scott/.nvm/versions/node/v12.14.1/bin/ask -> /Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/ask-cli/bin/ask.js
+
+> dtrace-provider@0.8.8 install /Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/ask-cli/node_modules/dtrace-provider
+> node-gyp rebuild || node suppress-error.js
+
+  ACTION binding_gyp_ndtp_target_build_ndtp .
+  TOUCH Release/obj.target/ndtp.stamp
+
+> jsonpath@1.0.2 postinstall /Users/scott/.nvm/versions/node/v12.14.1/lib/node_modules/ask-cli/node_modules/jsonpath
+> node lib/aesprim.js > generated/aesprim-browser.js
+
++ ask-cli@2.0.1
+added 249 packages from 329 contributors in 20.743s
+
+
+===============
+
+~/code/local/build-talking-apps % ask new                        (master)build-talking-apps
+[Error]: CliFileNotFoundError: File /Users/scott/.ask/cli_config not exists.
+~/code/local/build-talking-apps % ask configure                  (master)build-talking-apps
+This command will configure the ASK CLI with a profile associated with your Amazon developer credentials.
+------------------------- Step 1 of 2 : ASK CLI Configuration -------------------------
+[Warn]: ASK CLI uses authorization code to fetch LWA tokens. Do not share neither your authorization code nor access tokens.
+Switch to "Login with Amazon" page and sign-in with your Amazon developer credentials.
+If your browser did not open the page, run the configuration process again with command "ask configure --no-browser".
+
+ASK Profile "default" was successfully created. The details are recorded in ask-cli config file (.ask/cli_config) located at your **HOME** folder.
+[Error]: There is no Vendor ID associated with your account. To setup Vendor ID, please follow the instructions here: https://developer.amazon.com/en-US/docs/alexa/smapi/manage-credentials-with-ask-cli.html#vendor-id
+
+
+
+

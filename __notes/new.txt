@@ -1,0 +1,13 @@
+~/code/local/build-talking-apps % ask new                        (master)build-talking-apps
+Please follow the wizard to start your Alexa skill project ->
+? Choose the programming language you will use to code your skill:  NodeJS
+? Choose a method to host your skill's backend resources:  AWS Lambda
+  Host your skill code on AWS Lambda (requires AWS account).
+? Choose a template to start with:  Hello world		    Alexa's hello world skill to send the g
+reetings to the world!
+? Please type in your skill name:  skill-sample-nodejs-hello-world
+? Please type in your folder name for the skill project (alphanumeric):  Helloworld
+Project for skill "skill-sample-nodejs-hello-world" is successfully created at /Users/scott/code/local/build-talking-apps/Helloworld
+
+Project initialized with deploy delegate "@ask-cli/lambda-deployer" successfully.
+
