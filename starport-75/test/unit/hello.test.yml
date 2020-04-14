@@ -1,0 +1,13 @@
+---
+configuration:
+  description: Hello world intent tests
+
+---
+- test : Hello world intent
+- HelloWorldIntent:
+  - prompt: Hello Stellar World!
+
+---
+- test: Hello world utterance
+- "Hello":
+  - prompt: Hello Stellar World!

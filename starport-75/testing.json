@@ -1,5 +1,14 @@
 {
     "handler": "./lambda/index.js",
     "interactionModel": "./skill-package/interactionModels/custom/en-US.json",
+    "jest": {
+      "coveragePathIgnorePatterns": [
+        "<rootDir>/test/.*\\.js",
+        "<rootDir>/utils/.*\\.js",
+        "<rootDir>/test_output/.*\\.js",
+        "util.js",
+        "testflow.js"
+      ]
+    },
     "locales": "en-US"
 }
