@@ -1,6 +1,9 @@
 After fixing credentials in ~/.ask
 See also: https://developer.amazon.com/en-US/docs/alexa/smapi/manage-credentials-with-ask-cli.html#create-aws-credentials
 
+Also, I did a 'ask init' after 'ask create'. That changed several of the types:
+-        "type": "@ask-cli/lambda-deployer"
++        "type": "@ask-cli/cfn-deployer",
 
 
 

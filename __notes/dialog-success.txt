@@ -1,0 +1,17 @@
+~/code/local/build-talking-apps/starport-75 % ask dialog --locale en-US
+
+=================================== Welcome to ASK Dialog ==================================
+======= In interactive mode, type your utterance text onto the console and hit enter =======
+================= Alexa will then evaluate your input and give a response! =================
+=== Use ".record <fileName>" or ".record <fileName> --append-quit" to save list of utterances to a file. ===
+=========== You can exit the interactive mode by entering ".quit" or "ctrl + c". ===========
+
+User  > open star port seventy five travel
+Alexa > Welcome to Starport 75 Travel, you can say Hello or Help. Which would you like to try?
+User  > Hello
+Alexa > Hello Stellar World!
+User  > .quit
+
+========================================= Goodbye! =========================================
+
+~/code/local/build-talking-apps/starport-75 %                   
