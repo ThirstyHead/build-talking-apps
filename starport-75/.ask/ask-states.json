@@ -2,9 +2,27 @@
   "askcliStatesVersion": "2020-03-31",
   "profiles": {
     "default": {
+      "skillId": "amzn1.ask.skill.bfe3ef73-ca78-481b-8b51-02f761e4d21f",
       "skillInfrastructure": {
-        "@ask-cli/lambda-deployer": {
-          "deployState": {}
+        "@ask-cli/cfn-deployer": {
+          "deployState": {
+            "default": {
+              "s3": {
+                "bucket": "ask-starport-75-askclidef-useast1-1586885203593",
+                "key": "endpoint/build.zip",
+                "objectVersion": "i8EGVYgvokKXTMPXwWf.273K5xnVjpNb"
+              },
+              "stackId": "arn:aws:cloudformation:us-east-1:778207092306:stack/ask-starport-75-default-skillStack-1586885203593/25652340-7e75-11ea-a2c4-12bdd946785e"
+            }
+          }
+        }
+      },
+      "skillMetadata": {
+        "lastDeployHash": "5fwnL9fK+nxv1W1tbHUREX/nc+Q="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "rj1qBI2tuA50giJ5GPVnUJoH1ws="
         }
       }
     }

@@ -1,0 +1,28 @@
+After fixing credentials in ~/.ask
+See also: https://developer.amazon.com/en-US/docs/alexa/smapi/manage-credentials-with-ask-cli.html#create-aws-credentials
+
+
+
+
+~/code/local/build-talking-apps/starport-75 % ask deploy         (master)build-talking-apps
+==================== Deploy Skill Metadata ====================
+Skill package deployed successfully.
+Skill ID: amzn1.ask.skill.bfe3ef73-ca78-481b-8b51-02f761e4d21f
+
+==================== Build Skill Code ====================
+npm WARN hello-world@1.1.0 No repository field.
+
+added 17 packages from 69 contributors and audited 20 packages in 1.456s
+found 0 vulnerabilities
+
+Skill code built successfully.
+Code for region default built to /Users/scott/code/local/build-talking-apps/starport-75/.ask/lambda/build.zip successfully with build flow nodejs-npm.
+
+==================== Deploy Skill Infrastructure ====================
+  ✔ Deploy Alexa skill infrastructure for region "default"
+  The api endpoints of skill.json have been updated from the skill infrastructure deploy results.
+Skill infrastructures deployed successfully through @ask-cli/cfn-deployer.
+
+==================== Enable Skill ====================
+Skill is enabled successfully.
+~/code/local/build-talking-apps/starport-75 %           
